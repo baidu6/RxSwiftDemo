@@ -11,7 +11,7 @@ import UIKit
 class ViewController: BaseViewController {
     
     private var listTableView: BaseTableView!
-    private var titlesArray: [String] = ["01-两种编程方式的比较", "02-Observable", "03"]
+    private var titlesArray: [String] = ["01-两种编程方式的比较", "02-Observable", "03-订阅Observable", "04-Observer观察者"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +50,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 1:
             let vc = Test02ViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc = Test03ViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc = Test04ViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break
