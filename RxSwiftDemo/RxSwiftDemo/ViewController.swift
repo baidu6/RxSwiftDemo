@@ -8,18 +8,52 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController {
+    
+    private var listTableView: BaseTableView!
+    private var titlesArray: [String] = ["01-两种编程方式的比较", "02-Observable", "03"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        title = "RxSwift"
+        
+        // 添加UITableView
+        setupTableViews()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func setupTableViews() {
+        listTableView = BaseTableView(frame: CGRect(x: 0, y: 0, width: SCREEN_WIDTH, height: SCREEN_HEIHGT))
+        listTableView.delegate = self
+        listTableView.dataSource = self
+        listTableView.register(BaseTableViewCell.self, forCellReuseIdentifier: "BaseTableViewCell")
+        view.addSubview(listTableView)
     }
+}
 
-
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return titlesArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BaseTableViewCell") as! BaseTableViewCell
+        cell.displayText(title: titlesArray[indexPath.row])
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        switch indexPath.row {
+        case 0:
+            let vc = Test01ViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc = Test02ViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        default:
+            break
+        }
+    }
 }
 

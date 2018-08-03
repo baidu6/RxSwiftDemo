@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		CB6DB7F12111B0790006EB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB7F02111B0790006EB57 /* AppDelegate.swift */; };
-		CB6DB7F32111B0790006EB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB7F22111B0790006EB57 /* ViewController.swift */; };
 		CB6DB7F62111B0790006EB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DB7F42111B0790006EB57 /* Main.storyboard */; };
 		CB6DB7F82111B07A0006EB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6DB7F72111B07A0006EB57 /* Assets.xcassets */; };
 		CB6DB7FB2111B07A0006EB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DB7F92111B07A0006EB57 /* LaunchScreen.storyboard */; };
 		CB6DB8062111B07A0006EB57 /* RxSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB8052111B07A0006EB57 /* RxSwiftDemoTests.swift */; };
 		CB6DB8112111B07A0006EB57 /* RxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB8102111B07A0006EB57 /* RxSwiftDemoUITests.swift */; };
+		CB6DB8242111B2600006EB57 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB8212111B2600006EB57 /* BaseViewController.swift */; };
+		CB6DB8252111B2600006EB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB8232111B2600006EB57 /* ViewController.swift */; };
+		CB6DB8272111B27A0006EB57 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB8262111B27A0006EB57 /* BaseNavigationController.swift */; };
+		CB6DB82A2111B3460006EB57 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB8292111B3460006EB57 /* Common.swift */; };
+		CB6DB82C2111B40A0006EB57 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB82B2111B40A0006EB57 /* BaseTableView.swift */; };
+		CB6DB82E2111B5070006EB57 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB82D2111B5070006EB57 /* BaseTableViewCell.swift */; };
+		CB70A0E821129B8A00B3F824 /* Test01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A0E721129B8A00B3F824 /* Test01ViewController.swift */; };
+		CB70A0EA21129C8300B3F824 /* BaseSubTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A0E921129C8300B3F824 /* BaseSubTitleCell.swift */; };
+		CB70A0EC2112ACE200B3F824 /* Test02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB70A0EB2112ACE200B3F824 /* Test02ViewController.swift */; };
 		E3FB79CD7B13C989A3592BA6 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9881225803F979DA24C3535 /* Pods_RxSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +47,6 @@
 		1F5430D516FA36905ACBCFE5 /* Pods-RxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CB6DB7ED2111B0790006EB57 /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6DB7F02111B0790006EB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB6DB7F22111B0790006EB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB6DB7F52111B0790006EB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6DB7F72111B07A0006EB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6DB7FA2111B07A0006EB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +57,15 @@
 		CB6DB80C2111B07A0006EB57 /* RxSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6DB8102111B07A0006EB57 /* RxSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		CB6DB8122111B07A0006EB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6DB8212111B2600006EB57 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CB6DB8232111B2600006EB57 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB6DB8262111B27A0006EB57 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		CB6DB8292111B3460006EB57 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CB6DB82B2111B40A0006EB57 /* BaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		CB6DB82D2111B5070006EB57 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CB70A0E721129B8A00B3F824 /* Test01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test01ViewController.swift; sourceTree = "<group>"; };
+		CB70A0E921129C8300B3F824 /* BaseSubTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSubTitleCell.swift; sourceTree = "<group>"; };
+		CB70A0EB2112ACE200B3F824 /* Test02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test02ViewController.swift; sourceTree = "<group>"; };
 		E9881225803F979DA24C3535 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,8 +129,11 @@
 		CB6DB7EF2111B0790006EB57 /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB6DB8282111B30D0006EB57 /* Util */,
+				CB6DB8202111B2600006EB57 /* Base */,
+				CB6DB8222111B2600006EB57 /* RxSwift */,
 				CB6DB7F02111B0790006EB57 /* AppDelegate.swift */,
-				CB6DB7F22111B0790006EB57 /* ViewController.swift */,
+				CB6DB8232111B2600006EB57 /* ViewController.swift */,
 				CB6DB7F42111B0790006EB57 /* Main.storyboard */,
 				CB6DB7F72111B07A0006EB57 /* Assets.xcassets */,
 				CB6DB7F92111B07A0006EB57 /* LaunchScreen.storyboard */,
@@ -139,6 +158,35 @@
 				CB6DB8122111B07A0006EB57 /* Info.plist */,
 			);
 			path = RxSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		CB6DB8202111B2600006EB57 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CB6DB8212111B2600006EB57 /* BaseViewController.swift */,
+				CB6DB8262111B27A0006EB57 /* BaseNavigationController.swift */,
+				CB6DB82B2111B40A0006EB57 /* BaseTableView.swift */,
+				CB6DB82D2111B5070006EB57 /* BaseTableViewCell.swift */,
+				CB70A0E921129C8300B3F824 /* BaseSubTitleCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CB6DB8222111B2600006EB57 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CB70A0E721129B8A00B3F824 /* Test01ViewController.swift */,
+				CB70A0EB2112ACE200B3F824 /* Test02ViewController.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		CB6DB8282111B30D0006EB57 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CB6DB8292111B3460006EB57 /* Common.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		D43F8999B09E7B7362AF5821 /* Frameworks */ = {
@@ -285,11 +333,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -321,8 +373,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6DB7F32111B0790006EB57 /* ViewController.swift in Sources */,
+				CB6DB8272111B27A0006EB57 /* BaseNavigationController.swift in Sources */,
+				CB6DB8252111B2600006EB57 /* ViewController.swift in Sources */,
+				CB70A0EA21129C8300B3F824 /* BaseSubTitleCell.swift in Sources */,
 				CB6DB7F12111B0790006EB57 /* AppDelegate.swift in Sources */,
+				CB6DB82A2111B3460006EB57 /* Common.swift in Sources */,
+				CB6DB82E2111B5070006EB57 /* BaseTableViewCell.swift in Sources */,
+				CB70A0EC2112ACE200B3F824 /* Test02ViewController.swift in Sources */,
+				CB70A0E821129B8A00B3F824 /* Test01ViewController.swift in Sources */,
+				CB6DB82C2111B40A0006EB57 /* BaseTableView.swift in Sources */,
+				CB6DB8242111B2600006EB57 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
