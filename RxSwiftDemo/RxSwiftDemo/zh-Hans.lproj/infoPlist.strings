@@ -1,0 +1,8 @@
+/* 
+  infoPlist.strings
+  RxSwiftDemo
+
+  Created by 王云 on 2018/12/5.
+  Copyright © 2018 王云. All rights reserved.
+*/
+CFBundleDisplayName = "本地";
