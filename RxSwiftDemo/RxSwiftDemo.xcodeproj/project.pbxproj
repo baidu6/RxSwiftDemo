@@ -15,6 +15,7 @@
 		CB2D73E921B6648C00E709C8 /* Test09ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D73E821B6648C00E709C8 /* Test09ViewController.swift */; };
 		CB2D73EB21B6773A00E709C8 /* Test10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D73EA21B6773A00E709C8 /* Test10ViewController.swift */; };
 		CB2D73ED21B6795600E709C8 /* Test11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D73EC21B6795600E709C8 /* Test11ViewController.swift */; };
+		CB4F611D21B8B962003C5BA8 /* ThreadTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F611C21B8B962003C5BA8 /* ThreadTestViewController.swift */; };
 		CB6DB7F12111B0790006EB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DB7F02111B0790006EB57 /* AppDelegate.swift */; };
 		CB6DB7F62111B0790006EB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DB7F42111B0790006EB57 /* Main.storyboard */; };
 		CB6DB7F82111B07A0006EB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6DB7F72111B07A0006EB57 /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 		CBAE8D0421B4C72D006F77F4 /* Tes02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAE8D0321B4C72D006F77F4 /* Tes02ViewController.swift */; };
 		CBAE8D0621B5338B006F77F4 /* Test03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAE8D0521B5338B006F77F4 /* Test03ViewController.swift */; };
 		CBBCD5AF21B76E5A0006D67D /* infoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBBCD5B121B76E5A0006D67D /* infoPlist.strings */; };
+		CBBCD5BB21B7B9B70006D67D /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBCD5B921B7B9B70006D67D /* DogModel.swift */; };
+		CBBCD5BC21B7B9B70006D67D /* RealmTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBCD5BA21B7B9B70006D67D /* RealmTestViewController.swift */; };
 		E3FB79CD7B13C989A3592BA6 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9881225803F979DA24C3535 /* Pods_RxSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,7 @@
 		CB2D73E821B6648C00E709C8 /* Test09ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test09ViewController.swift; sourceTree = "<group>"; };
 		CB2D73EA21B6773A00E709C8 /* Test10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test10ViewController.swift; sourceTree = "<group>"; };
 		CB2D73EC21B6795600E709C8 /* Test11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test11ViewController.swift; sourceTree = "<group>"; };
+		CB4F611C21B8B962003C5BA8 /* ThreadTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadTestViewController.swift; sourceTree = "<group>"; };
 		CB6DB7ED2111B0790006EB57 /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6DB7F02111B0790006EB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6DB7F52111B0790006EB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 		CBBCD5AA21B76DD10006D67D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		CBBCD5B021B76E5A0006D67D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/infoPlist.strings"; sourceTree = "<group>"; };
 		CBBCD5B221B76E710006D67D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/infoPlist.strings; sourceTree = "<group>"; };
+		CBBCD5B921B7B9B70006D67D /* DogModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
+		CBBCD5BA21B7B9B70006D67D /* RealmTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmTestViewController.swift; sourceTree = "<group>"; };
 		E9881225803F979DA24C3535 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +133,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CB4F611B21B8B94E003C5BA8 /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				CB4F611C21B8B962003C5BA8 /* ThreadTestViewController.swift */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
 		CB6DB7E42111B0790006EB57 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +166,8 @@
 		CB6DB7EF2111B0790006EB57 /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB4F611B21B8B94E003C5BA8 /* 多线程 */,
+				CBBCD5B821B7B9B70006D67D /* Realm */,
 				CB6DB8282111B30D0006EB57 /* Util */,
 				CB6DB8202111B2600006EB57 /* Base */,
 				CB6DB8222111B2600006EB57 /* RxSwift */,
@@ -220,6 +236,15 @@
 				CB6DB8292111B3460006EB57 /* Common.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		CBBCD5B821B7B9B70006D67D /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				CBBCD5B921B7B9B70006D67D /* DogModel.swift */,
+				CBBCD5BA21B7B9B70006D67D /* RealmTestViewController.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		D43F8999B09E7B7362AF5821 /* Frameworks */ = {
@@ -366,7 +391,10 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -374,6 +402,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
@@ -381,7 +412,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6292CF0CE29970769862CF48 /* [CP] Check Pods Manifest.lock */ = {
@@ -411,6 +442,8 @@
 			files = (
 				CB6DB8272111B27A0006EB57 /* BaseNavigationController.swift in Sources */,
 				CB6DB8252111B2600006EB57 /* ViewController.swift in Sources */,
+				CB4F611D21B8B962003C5BA8 /* ThreadTestViewController.swift in Sources */,
+				CBBCD5BC21B7B9B70006D67D /* RealmTestViewController.swift in Sources */,
 				CB2D73E921B6648C00E709C8 /* Test09ViewController.swift in Sources */,
 				CB70A0EA21129C8300B3F824 /* BaseSubTitleCell.swift in Sources */,
 				CBAE8D0221B4C2C7006F77F4 /* Test01ViewController.swift in Sources */,
@@ -425,6 +458,7 @@
 				CB2D73E721B65C1800E709C8 /* Test08ViewController.swift in Sources */,
 				CB2D73ED21B6795600E709C8 /* Test11ViewController.swift in Sources */,
 				CB6DB82C2111B40A0006EB57 /* BaseTableView.swift in Sources */,
+				CBBCD5BB21B7B9B70006D67D /* DogModel.swift in Sources */,
 				CB2D73EB21B6773A00E709C8 /* Test10ViewController.swift in Sources */,
 				CB6DB8242111B2600006EB57 /* BaseViewController.swift in Sources */,
 				CBAE8D0621B5338B006F77F4 /* Test03ViewController.swift in Sources */,

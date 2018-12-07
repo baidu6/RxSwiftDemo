@@ -9,6 +9,10 @@ target 'RxSwiftDemo' do
     pod 'RxCocoa', '~> 4.1.2'
     
     pod 'StreamingKit', '~> 0.1.30'
+    
+    pod 'RealmSwift', '3.11.1'
+    
+    pod 'Alamofire'
 
 end
 

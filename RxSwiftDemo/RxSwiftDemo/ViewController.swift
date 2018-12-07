@@ -12,7 +12,7 @@ import StreamingKit
 class ViewController: BaseViewController {
     
     private var listTableView: BaseTableView!
-    private var titlesArray: [String] = ["01-两种编程方式的比较", "02-Observable", "04-Observer观察者", "05-自定义可绑定属性", "06-Subjects和Variables", "07-变换操作", "08-过滤操作", "09-条件和布尔操作符", "10-结合操作", "11-算数，以及聚合操作", "12-其它操作符"]
+    private var titlesArray: [String] = ["01-两种编程方式的比较", "02-Observable", "04-Observer观察者", "05-自定义可绑定属性", "06-Subjects和Variables", "07-变换操作", "08-过滤操作", "09-条件和布尔操作符", "10-结合操作", "11-算数，以及聚合操作", "12-其它操作符", "Realm", "IOS多线程"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,6 +80,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 10:
             let vc = Test11ViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 11:
+            let vc = RealmTestViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 12:
+            let vc = ThreadTestViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break
